@@ -124,7 +124,12 @@ local Button = Tab:CreateButton({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadLyno/ModDevOwnerOnly/main/MainScript.lua",true))
 	end,
 })
-
+local Button = Tab:CreateButton({
+	Name = "Lyno Today :D",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end,
+})
 local Keybind = Tab:CreateKeybind({
 	Name = "Speed - 23",
 	CurrentKeybind = "R",
