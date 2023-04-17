@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Lyno Hub v.0.1",
+	Name = "Lyno Hub v.0.2",
 	LoadingTitle = "Lyno Hub",
 	LoadingSubtitle = "by 7GrandDadLyno",
 	ConfigurationSaving = {
@@ -122,6 +122,12 @@ local Button = Tab:CreateButton({
 	Name = "Lyno Private",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadLyno/ModDevOwnerOnly/main/MainScript.lua",true))
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "AutoReport (New)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/main.lua"))()
 	end,
 })
 local Button = Tab:CreateButton({
