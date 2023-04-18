@@ -1,3 +1,13 @@
+rconsoleprint("@@RED@@")
+rconsoleprint("Please Wait Script is Loading")
+wait(3)
+rconsoleclear()
+rconsoleprint("Thanks For Chosing Lyno , Script Loaded wait 6 sec to load data")
+wait(3)
+rconsoleclear()
+rconsoleprint("Join Lyno Community For Updates")
+wait(3)
+rconsoleclear()
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
